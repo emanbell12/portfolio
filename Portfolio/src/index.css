@@ -1,0 +1,151 @@
+
+.logo-img {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 60px; /* Set a fixed width for the logo image */
+  height: 60px; /* Set a fixed height for the logo image */
+  object-fit: contain; /* Ensure the image fits within the bounds */
+  margin-right: 1rem; /* Space between image and text */
+}
+
+.card-header{
+  background-color: rgb(240, 194, 68);
+}
+.edu-img {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 100px; /* Set a fixed width for the logo image */
+  height: 100px; /* Set a fixed height for the logo image */
+  object-fit: contain; /* Ensure the image fits within the bounds */
+  margin-right: 1rem; /* Space between image and text */
+}
+
+.header-text {
+  flex-grow: 1; /* Allow text to take available space */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.header-text h6,
+.header-text p {
+  margin: 0; /* Remove default margins */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+#ads {
+  margin: 0 0 30px 0;
+ 
+}
+
+#ads .card-notify-badge {
+      position: absolute;
+      left: -10px;
+      top: -20px;
+      background: #f2d900;
+      text-align: center;
+      border-radius: 30px 30px 30px 30px; 
+      color: #000;
+      padding: 5px 10px;
+      font-size: 14px;
+
+  }
+
+#ads .card-notify-year {
+      position: absolute;
+      right: -10px;
+      top: -20px;
+      background: #ff4444;
+      border-radius: 50%;
+      text-align: center;
+      color: #fff;      
+      font-size: 14px;      
+      width: 50px;
+      height: 50px;    
+      padding: 15px 0 0 0;
+}
+
+
+#ads .card-detail-badge {      
+      background: #fdc817;
+      text-align: center;
+      border-radius: 30px 30px 30px 30px;
+      color: #000;
+      padding: 5px 10px;
+      font-size: 11px;        
+  }
+
+  #ads .card-detail-badge:hover {      
+    background: #fdf6dd;      
+}
+
+#ads .card:hover {
+          background: #fff;
+          box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+          border-radius: 4px;
+          transition: all 0.3s ease;
+      }
+
+#ads .card-image-overlay {
+      font-size: 20px;
+      
+  }
+
+
+#ads .card-image-overlay span {
+          display: inline-block;              
+      }
+
+
+#ads .ad-btn {
+      text-transform: uppercase;
+      width: 20vw;
+      height: 30px;
+      border-radius: 80px;
+      font-size: 14px;
+      text-align: center;
+      border: 3px solid #ffec80;
+      display: block;
+      text-decoration: none;
+      margin: 20px auto 1px auto;
+      color: #000;
+      overflow: hidden;        
+      position: relative;
+      background-color: #fcebb5;
+  }
+
+#ads .ad-btn:hover {
+          color: #f0c711;
+          border: 1px solid #f0c711;
+          background: transparent;
+          transition: all 0.1s ease;      }
+
+#ads .ad-title h5 {
+      text-transform: uppercase;
+      font-size: 18px;
+  }
+
+  .image-container {
+    height: 250px; /* Set your desired height here */
+    overflow: hidden; /* Optional: hides any overflow */
+
+}
+
+  .h-line {
+    width: 100px;
+    background-color: #fdc817;
+    height: 4px;
+    margin-bottom: 3em;
+  }
+
+  .half-circle-right{
+    width: 50px;
+            height: 300px; 
+            background-color: #ffc107;
+            border-bottom-right-radius: 100% 50%;
+            border-top-left-radius: 100% 50%;
+  }
+  .half-circle-left{
+    width: 50px;
+            height: 300px; 
+            background-color: #ffc107;
+            border-bottom-left-radius: 100% 50%;
+            border-top-right-radius: 100% 50%;
+  }
